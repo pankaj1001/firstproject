@@ -1,0 +1,42 @@
+*{
+  transition: 0.8s;
+}
+.background-image-container{
+  background-image: url("../images/ordinateur-de-bureau-pc-1456070535WEH.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.85;
+}
+#hide-image{
+  display: none;
+}
+#main-nav{
+  width: 90%;
+}
+.container{
+  order: 1;
+  width: 50%;
+}
+.navigation{
+  order:2;
+  width: 50%;
+}
+ul{
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#logo-text{
+  justify-content: flex-start;
+}
+li{
+  border-top: 0 !important;
+  width: 200px;
+//  background-color: red;
+}
+#buy:hover{
+  background-color: #ff4d88
+}

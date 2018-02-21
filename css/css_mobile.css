@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  transition: 0.8s;
+}
+.check{
+//  background-color: red;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.flex-space-between{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.outer{
+  width:100vw;
+  height:100vh;
+  //background-color: red;
+
+}
+.upper{
+  height: 70%;
+  //background-color: green;
+}
+.background-image-container{
+  height: 70%;
+  background-image: url("../images/mockups_realistic_05 (2).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.75;
+}
+.lower{
+  height:30%;
+  background-color:  #0099e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header{
+  width:100%;
+  //background-color: grey;
+}
+#main-nav{
+  width: 100%;
+  //background-color: red;
+}
+.container{
+  order: 1;
+  width: 100%;
+}
+.navigation{
+  order:2;
+  width: 100%;
+}
+.logo-container{
+  width: 40px;
+
+}
+.logo-image{
+  width: 100%;
+}
+#logo-text{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.6rem;
+}
+ul{
+  display: none ;
+  position: relative;
+}
+li:first-child{
+  border-top: 1px solid #ffffff;
+}
+li{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+}
+a{
+  text-decoration: none;
+  padding:5px;
+  //background-color: red;
+  color: #ffffff;
+}
+a:hover{
+  cursor: pointer;
+}
+li>a{
+    display: block;
+    background-color:#0099e6;
+}
+li>a:hover{
+  background-color: #6600ff;
+}
+.demo-vedio{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+#big-text{
+  font-size: 2rem;
+  margin-top:50px;
+  margin-bottom: 15px;
+}
+#punch{
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+#footer-heading{
+  font-size: 1.6rem;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.text{
+  text-align: center;
+  color: #ffffff
+}
+#feded{
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+#buy:hover{
+  background-color: #ff4d88
+}
